@@ -12,11 +12,66 @@
             font-family: "Bungee Spice", sans-serif;
             font-weight: 400;
             font-style: normal;
+            text-align: center;
+            margin-top: 40vh;
+        }
+
+        header {
+            font-family: "Playfair Display SC", serif; 
+            font-weight: 400;
+            font-style: normal;
+            color: #BE5103;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: sans-serif;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            background-image: url('your-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: fixed;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            height: 100vh;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Optional dark overlay */
+        }
+
+        .content {
+            position: relative;
+            margin-top: 100vh;
+            padding: 4rem;
+            background: white;
         }
     </style>
 </head>
 <body>
     <header>Header</header>
     <h1>Header One</h1>
+
+  <div class="hero">
+    <div class="overlay">
+      <h1>Welcome to Naawi-Oodena</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>About This Land</h2>
+    <p>Here's where your beautiful, informative, and educational content lives. 🌱</p>
+    <p>Keep scrolling to explore more!</p>
+  </div>
+
 </body>
 </html>
