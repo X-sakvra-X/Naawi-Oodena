@@ -1,0 +1,124 @@
+/* Contact Us Grid & Cards */
+.contact-container {
+  padding: 60px 5%;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: var(--primary);
+}
+
+.contact-contaniner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffc857;
+    display: inline-block;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-card {
+    background-color: var(--neutral-bg);
+    border-radius: 12px;
+    padding: 30px 25px;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.12);
+}
+
+.contact-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+}
+
+.contact-card h3 {
+    font-size: 1.4rem;
+    color: var(--primary);
+    margin: 0.5rem 0;
+}
+
+.contact-card p {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color:#7152c9;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: var(--accent-dark, #c957a7);
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
+

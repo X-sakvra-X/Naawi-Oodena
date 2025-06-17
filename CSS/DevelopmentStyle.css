@@ -38,12 +38,18 @@
 }
 .scroll-wrapper .card {
   min-width: 200px;
-  background: #e6f2ff;
+  background: #428b51;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   flex-shrink: 0;
   font-weight: bold;
+}
+
+.scroll-wrapper .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
 }
 
 /* Info Columns */
@@ -53,7 +59,7 @@
   justify-content: center;
   gap: 30px;
   padding: 60px 20px;
-  background-color: #f0f9ff;
+  background-color: #f4ded0;
 }
 .info-columns .column {
   max-width: 300px;
@@ -145,12 +151,6 @@ header {
 
 .nav-links a:hover {
   color: #ee5a24;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 /* Hero Section */
